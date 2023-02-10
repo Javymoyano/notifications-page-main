@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <title>Frontend Mentor | Notifications page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body>
+    <!-- Notifications -->
+    <main class="notifications">
+      <!-- Header -->
+      <header class="header">
+        <h1 class="header__title">
+          Notifications <span class="unread-count">3</span>
+        </h1>
+        <a href="#" class="header__link">Mark all as read</a>
+      </header>
+
+      <!-- Notificacion unread-->
+
+      <article class="notification notification--unread">
+        <img
+          src="assets/images/avatar-mark-webber.webp"
+          alt="rizky"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Mark Webber</span> reacted to
+          your recent post
+          <a href="" class="link link--post">My first tournament today!</a>
+          <span class="unread_bubble"></span>
+        </h2>
+        <p class="date">1m ago</p>
+      </article>
+
+      <article class="notification notification--unread">
+        <img
+          src="assets/images/avatar-angela-gray.webp"
+          alt="Angela"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Angela Gray</span> followed you
+          <!-- <a href="" class="link link--post">My first tournament today!</a> -->
+          <span class="unread_bubble"></span>
+        </h2>
+        <p class="date">5m ago</p>
+      </article>
+
+      <!-- Notificacion group-->
+      <article class="notification notification--unread">
+        <img
+          src="assets/images/avatar-jacob-thompson.webp"
+          alt="Jacob"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Jacob Thompson </span> has
+          joined your group
+          <a href="" class="link link--group">Chess Club</a>
+          <!-- <a href="" class="link link--post">My first tournament today!</a> -->
+          <span class="unread_bubble"></span>
+        </h2>
+        <p class="date">1 day ago</p>
+      </article>
+
+      <!-- Notification with message -->
+      <article class="notification notification--message">
+        <img
+          src="assets/images/avatar-rizky-hasanuddin.webp"
+          alt="rizky"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Rizky Hasanuddin</span> sent you
+          a private message
+        </h2>
+        <p class="date">5 days ago</p>
+        <p class="notification__message">
+          Hello, thanks for setting up the Chess Club. I've been a member for a
+          few weeks now and I'm already having lots of fun and improving my
+          game.
+        </p>
+      </article>
+
+      <!-- Notificacion picture-->
+      <article class="notification notification--picture">
+        <img
+          src="assets/images/avatar-kimberly-smith.webp"
+          alt="rizky"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Kimberly Smith </span> commented
+          on your picture
+          <!-- <a href="" class="link link--post">My first tournament today!</a> -->
+        </h2>
+        <p class="date">1m ago</p>
+        <img
+          src="assets/images/image-chess.webp"
+          alt="Image attach"
+          class="notification__image"
+        />
+      </article>
+
+      <article class="notification notification--unread">
+        <img
+          src="assets/images/avatar-nathan-peterson.webp"
+          alt="nathan"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Nathan Peterson</span> reacted
+          to your recent post
+          <a href="" class="link link--post"
+            >5 end-game strategies to increase your win rate</a
+          >
+        </h2>
+        <p class="date">2 weeks ago</p>
+      </article>
+
+      <!-- Notificacion group-->
+      <article class="notification">
+        <img
+          src="assets/images/avatar-anna-kim.webp"
+          alt="anna"
+          class="avatar"
+        />
+        <h2 class="notification__title">
+          <span class="notification-title-user">Anna Kim </span> has left the
+          group
+          <a href="" class="link link--group">Chess Club</a>
+          <!-- <a href="" class="link link--post">My first tournament today!</a> -->
+        </h2>
+        <p class="date">2 weeks ago</p>
+      </article>
+    </main>
+
+    <!--   
+        -->
+  </body>
+</html>
