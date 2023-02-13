@@ -29,13 +29,16 @@ a {
   text-decoration: none;
   color: var(--dark-grey-blue);
 }
+
 /* Notifications */
 
 .notifications {
   max-width: 730px;
+  min-width: 480px;
   background-color: white;
   border-radius: 15px;
   padding: 2.5rem;
+  margin-top: 25rem;
 }
 
 /* Header  */
